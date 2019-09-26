@@ -38,7 +38,7 @@ buys['LTC-USD'] = {'buy': False, 'amount': 0.00}
 own wallets. Set the True/False variable and input your wallet on the
 address line.  """
 withdraws = {}
-withdraws['BTC-USD'] = {'withdraw': True,
+withdraws['BTC-USD'] = {'withdraw': False,
                         'address': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'}
 withdraws['ETH-USD'] = {'withdraw': False,
                         'address': 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'}
