@@ -72,7 +72,7 @@ def automated_purchase(event, context):
     # withdraw to wallets
     withdraws['BTC-USD']['base'] = 'BTC'
     withdraws['ETH-USD']['base'] = 'ETH'
-    withdraws['LTC-USD']['base'] = 'LTD'
+    withdraws['LTC-USD']['base'] = 'LTC'
 
     for key in withdraws.keys():
         if withdraws[key]['withdraw'] is True:
